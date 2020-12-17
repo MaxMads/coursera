@@ -1,0 +1,95 @@
+{
+	box-sizing: border-box;
+}
+
+body {
+background-color: gray;
+}
+
+h1 {
+font-size: 27px;
+font-family: Georgia serif;
+text-align: center;
+color: rgb(0, 0, 0);
+margin-bottom: 30px;
+}
+
+p {
+	padding: 15px 5px 0px 5px;
+	font-family: Georgia serif;
+	font-size: 16px;
+	position: relative; 
+}
+
+.section {
+	background-color: rgb(150, 150, 150);
+	border: 2px solid black;
+	margin-top: 20px;
+	margin-right: 20px;
+	padding: 3px;
+	text-align: justify;
+	position: relative;
+}
+
+span {
+	font-size: 20px;
+	width: 150px;
+	border: 1px solid black;
+	font-weight: bold;
+	text-align: center;
+	float: right; top: 0; right: 0; margin: 0;
+	position: absolute;
+
+}
+
+#s1 {
+	background-color: rgb(250, 150, 150);
+	color: rgb(0, 0, 0);
+}
+
+#s2 {
+	background-color: rgb(250, 150, 150);
+	color: rgb(0, 0, 0);
+}
+
+#s3 {
+	background-color: rgb(250, 150, 150);
+	color: rgb(0, 0, 0);
+}
+
+
+.boxes {
+	width: 100%;
+	
+}
+
+/* browser on PC view*/
+@media (min-width: 992px) {
+	.col-lg-4 {
+		width: 33.33%;
+		float: left;
+			}
+}
+
+/* browser on Tablet view*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		width: 50%;
+		float: left;
+			}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.expand-sushi {
+			width: 100%;
+		float: left;
+			}
+}
+
+/* browser view on mobil */
+@media (max-width: 767px) {
+	.col-sx-12 {
+		float: left;
+		width: 100%;
+			}
+}
