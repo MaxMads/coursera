@@ -89,7 +89,7 @@ body {
 
 
 
-.s1 {
+#s1 {
   font-weight: bold;
   text-align: center;
   font-size: 20px;
@@ -97,13 +97,13 @@ body {
 
   
 
-  .s2 {
+  #s2 {
   font-weight: bold;
   text-align: center;
   font-size: 20px;
   }
 
-  .s3 {
+  #s3 {
   font-weight: bold;
   text-align: center;
   font-size: 20px;
